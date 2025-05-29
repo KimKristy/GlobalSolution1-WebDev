@@ -93,6 +93,7 @@ const perguntas = [
   },
 ];
 
+// adicionando variaveis
 let indice = 0;
 let pontuacao = 0;
 const respostasUsuario = [];
