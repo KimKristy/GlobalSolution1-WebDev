@@ -407,6 +407,7 @@ footer {
   }
 }
 
+/* responsividade - 480px */
 @media (max-width: 480px) {
   #quiz h2 {
     font-size: 1.3rem;
