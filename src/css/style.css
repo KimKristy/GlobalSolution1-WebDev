@@ -6,6 +6,7 @@
   scroll-behavior: smooth;
 }
 
+/* adicionando variáveis */
 :root {
   --cor-primaria: #0077cc;
   --cor-header-footer: var(--cor-primaria);
