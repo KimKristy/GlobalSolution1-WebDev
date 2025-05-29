@@ -28,6 +28,7 @@ body {
   line-height: 1.6;
 }
 
+/* estilizando header e seus componentes */
 header {
   background-color: var(--cor-header-footer);
   color: white;
