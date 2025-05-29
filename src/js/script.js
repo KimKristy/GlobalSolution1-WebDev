@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+// funcionamento do botão do menu
 document.addEventListener("DOMContentLoaded", () => {
   const btnMenu = document.getElementById("btn-menu");
   const navList = document.getElementById("menu-principal");
