@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+// funcionamento dos botões de cor
 const temas = {
   azul: "#0077cc",
   verde: "#2e8b57",
