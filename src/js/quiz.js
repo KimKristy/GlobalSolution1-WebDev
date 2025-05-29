@@ -133,6 +133,7 @@ function carregarPergunta() {
   });
 }
 
+// adicionando função para as respostas
 function mostrarResultadoDetalhado() {
   perguntaEl.style.display = "none";
   opcoesEl.style.display = "none";
