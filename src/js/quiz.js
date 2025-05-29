@@ -103,6 +103,7 @@ const perguntaEl = document.getElementById("pergunta");
 const opcoesEl = document.getElementById("opcoes");
 const resultadoEl = document.getElementById("resultado");
 
+// adicionando função para as perguntas
 function carregarPergunta() {
   if (indice >= perguntas.length) {
     mostrarResultadoDetalhado();
