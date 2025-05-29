@@ -184,6 +184,7 @@ section:nth-child(even) .conteudo {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 
+/* estilizando slideshow */
 #slideshow {
   padding: 2rem 1rem;
   background-color: var(--cor-secundaria);
