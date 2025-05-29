@@ -1,3 +1,4 @@
+// constando função do slideshow
 let slideIndex = 0;
 const slides = document.querySelectorAll(".slide");
 const totalSlides = slides.length;
