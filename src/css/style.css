@@ -321,6 +321,7 @@ footer {
   margin-top: 0rem;
 }
 
+/* responsividade - 768px */
 @media (max-width: 768px) {
   #btn-menu {
     display: block;
