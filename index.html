@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="./src/assets/img/Resgate+ Logotipo.png"
+      type="image/png"
+    />
+    <title>Resgate+ - Tecnologia a favor da vida</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <img
+            src="./src/assets/img/Resgate+ Logotipo.png"
+            alt="Logo Resgate+"
+            class="logo"
+          />
+          <a href="#" class="logo-link" id="logo-topo">
+            <h1>Resgate+</h1>
+          </a>
+        </div>
+
+        <ul id="menu-principal">
+          <li><a href="#tecnologias" class="item-menu">Tecnologias</a></li>
+          <li><a href="#objetivos" class="item-menu">Objetivos</a></li>
+          <li><a href="#publico" class="item-menu">Público</a></li>
+          <li><a href="#beneficios" class="item-menu">Benefícios</a></li>
+          <li><a href="#ajuda" class="item-menu">Ajuda</a></li>
+          <li><a href="#quiz" class="item-menu">Quiz</a></li>
+          <li><a href="#contato" class="item-menu">Contato</a></li>
+        </ul>
+
+        <div>
+          <button class="btn-cor" data-cor="azul">🔵</button>
+          <button class="btn-cor" data-cor="verde">🟢</button>
+          <button class="btn-cor" data-cor="vermelho">🔴</button>
+        </div>
+
+        <div class="hamburguer" id="btn-menu">
+          <span class="barra"></span>
+          <span class="barra"></span>
+          <span class="barra"></span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="problema">
+        <div class="conteudo">
+          <div class="texto">
+            <h2>Enchente</h2>
+            <p>
+              Milhões de pessoas são afetadas todos os anos. A falta de alerta e
+              socorro agrava o impacto.
+            </p>
+            <p>A tecnologia é pouco explorada em momentos críticos.</p>
+          </div>
+          <div class="imagem">
+            <img
+              src="./src/assets/img/enchente.jpg"
+              alt="Área alagada após fortes chuvas"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="tecnologias">
+        <div class="conteudo">
+          <div class="texto">
+            <h2>Tecnologias Utilizadas</h2>
+            <p>
+              Alertas geolocalizados, IA, mapas de risco, app offline e
+              multicanal de comunicação.
+            </p>
+            <p>Plataforma digital com integração de sensores e notificações.</p>
+          </div>
+          <div class="imagem">
+            <img
+              src="./src/assets/img/tecnologia.jpg"
+              alt="Aplicativo com mapa de risco e alertas"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="objetivos">
+        <div class="conteudo">
+          <div class="texto">
+            <h2>Objetivos</h2>
+            <p>Reduzir o tempo de resposta com alertas em tempo real.</p>
+            <p>Conectar voluntários, Defesa Civil e moradores.</p>
+          </div>
+          <div class="imagem">
+            <img
+              src="./src/assets/img/mapa-risco.jpg"
+              alt="Mapa com rotas seguras e áreas de risco"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="publico">
+        <div class="conteudo">
+          <div class="texto">
+            <h2>Público-Alvo</h2>
+            <p>
+              Moradores de áreas de risco, voluntários e autoridades locais.
+            </p>
+            <p>Especialmente útil para quem vive em zonas vulneráveis.</p>
+          </div>
+          <div class="imagem">
+            <img
+              src="./src/assets/img/publico.jpg"
+              alt="Moradores e voluntários em ação"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="beneficios">
+        <div class="conteudo">
+          <div class="texto">
+            <h2>Benefícios</h2>
+            <p>Evacuação até 95% mais rápida. Redução de vítimas e perdas.</p>
+            <p>Plataforma leve, rápida e acessível mesmo offline.</p>
+          </div>
+          <div class="imagem">
+            <img
+              src="./src/assets/img/beneficio.jpg"
+              alt="Benefícios de evacuação eficiente"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="ajuda">
+        <div class="conteudo">
+          <div class="texto">
+            <h2>Como Ajudamos</h2>
+            <p>
+              Usuários recebem alertas, acessam rotas seguras e solicitam ajuda
+              via app.
+            </p>
+            <p>Visualização de status do resgate e voluntariado.</p>
+          </div>
+          <div class="imagem">
+            <img
+              src="./src/assets/img/ajuda.jpg"
+              alt="Aplicativo ajudando pessoa em situação de risco"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section id="slideshow">
+      <div class="conteudo">
+        <div class="slide ativo">
+          <img src="./src/assets/img/slide1.jpg" alt="Slide 1" />
+        </div>
+        <div class="slide">
+          <img src="./src/assets/img/slide2.jpg" alt="Slide 2" />
+        </div>
+        <div class="slide">
+          <img src="./src/assets/img/slide3.jpg" alt="Slide 3" />
+        </div>
+      </div>
+    </section>
+
+    <section id="quiz">
+      <div class="conteudo">
+        <div>
+          <h2 id="pergunta"></h2>
+          <div id="opcoes"></div>
+          <p id="resultado"></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="conteudo">
+        <div class="texto">
+          <h2>Fale com a gente</h2>
+          <p>Tem dúvidas, sugestões ou quer ajudar? Envie sua mensagem.</p>
+          <form id="form-contato">
+            <input type="text" name="nome" placeholder="Seu nome" required />
+            <textarea
+              name="mensagem"
+              placeholder="Sua mensagem"
+              required
+            ></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Resgate+ - Tecnologia a favor da vida</p>
+    </footer>
+
+    <script src="./src/js/script.js"></script>
+    <script src="./src/js/slideshow.js"></script>
+    <script src="./src/js/quiz.js"></script>
+  </body>
+</html>
