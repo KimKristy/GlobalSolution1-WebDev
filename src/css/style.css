@@ -228,6 +228,7 @@ section:nth-child(even) .conteudo {
   }
 }
 
+/* estilizando quiz */
 #quiz {
   background-color: var(--cor-fundo-secao);
   padding: 2.5rem 1rem;
