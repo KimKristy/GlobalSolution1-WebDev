@@ -1,3 +1,4 @@
+// adicionando perguntas ao quiz
 const perguntas = [
   {
     pergunta: "O que é uma enchente?",
