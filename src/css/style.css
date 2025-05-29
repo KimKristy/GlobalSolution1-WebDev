@@ -311,6 +311,7 @@ form button:hover {
   background-color: #005fa3;
 }
 
+/* estilizando footer */
 footer {
   background-color: var(--cor-header-footer);
   color: white;
