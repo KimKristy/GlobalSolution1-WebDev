@@ -1,3 +1,4 @@
+// recarregar a página quando apertar no título
 document.addEventListener("DOMContentLoaded", () => {
   const logoLink = document.getElementById("logo-topo");
 
